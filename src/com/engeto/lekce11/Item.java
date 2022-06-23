@@ -73,4 +73,14 @@ public class Item {
     public void setPrice(BigDecimal price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Item: " +"id=" + id
+                +", partNo='" + partNo
+                + '\'' + ", serialNo='" + serialNo + '\''
+                + ", name='" + name + '\'' + ", description='" + description
+                + '\'' + ", numberInStock=" + numberInStock +
+                ", price=" + price;
+    }
 }

@@ -15,7 +15,6 @@
         </environment>
     </environments>
     <mappers>
-
-
+        <mapper class="com.engeto.lekce11.ItemMapper"></mapper>
     </mappers>
 </configuration>
