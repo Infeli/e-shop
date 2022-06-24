@@ -40,12 +40,16 @@ public class Main {
 
             // Save item
             System.out.println("------Save item--------");
+
             //session.commit();
+
+
+
             System.out.println();
 
             // price change
             System.out.println("------Price change--------");
-           // itemMapper.updatePrice(1, BigDecimal.valueOf(12.0));
+            itemMapper.updatePrice(1, BigDecimal.valueOf(12));
 
 
         }

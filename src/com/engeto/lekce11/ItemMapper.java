@@ -21,6 +21,7 @@ public interface ItemMapper {
 
     void saveItem(Item item);
 
+
     @Update("UPDATE Item "
             +"SET price = #{newPrice} "
             +"WHERE id = #{id}")
